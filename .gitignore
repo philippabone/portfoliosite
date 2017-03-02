@@ -1,0 +1,9 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Gulp & npm files
+node_modules
+
+#Sass cache
+.sass-cache
