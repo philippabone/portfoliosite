@@ -1,0 +1,147 @@
+
+/*FOOTER*/
+
+$footercolour: #40bfbf;
+
+
+FOOTER
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+footer .footer{
+  width: 100%;
+  background-color: $footercolour;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  flex: 50%;
+  text-align: center;
+
+}
+
+.footer p {
+  color: white;
+}
+.footer ul li{
+  color: white;
+  padding-top: 10px;
+}
+
+.footer ul li a {
+  color: white;
+}
+.footer ul {
+  list-style-type: none;
+  display: inline;
+}
+.footer h2 {
+  color: #f2f2f2;
+}
+
+
+.right ul li {
+  float: left;
+  margin: 15px;
+}
+
+.social-icon {
+  height: 30px;
+  width: 30px;
+}
+
+
+
+/* FOOTER - LEFT */
+.left{
+  text-align: center;
+}
+
+footer .left ul {
+  padding-top: 20px;
+}
+
+/* FOOTER - CENTER */
+
+.center {
+  padding-top: 30px;
+}
+footer .center p {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.center ul {
+  padding-top: 10px;
+}
+.center ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.center ul li a {
+  padding-left: 10px;
+}
+
+/* FOOTER - RIGHT */
+
+
+.right {
+  padding-top: 10px;
+}
+
+.right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+// should this be here if i have it in the html?
+.right ul li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+/* SASS MAP*/
+
+
+// Sass data map
+$social-colors: (
+        twitter: #1dcaff,
+        linkedin: #007bb5,
+        github: #fff,
+);
+
+// Loop through data map to match social name with colors
+@each $socialName, $socialColor in $social-colors {
+  .social-icon--#{$socialName} {
+    fill: $socialColor;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* FOOTER */
+  .icon-wrapper{
+    dipslay: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 0.7em solid #fff;
+
+  }
+
+
+  footer .footer {
+    flex: auto;
+    width: 33%;
+    height: 180px;
+  }
+
+}

@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var postcss = require('gulp-postcss');
+var mqpacker = require('css-mqpacker');
 
 gulp.task('hello', function() {
     console.log('Hello Zell');
@@ -8,9 +10,14 @@ gulp.task('hello', function() {
 
 
 gulp.task('sass', function() {
-    gulp.src('./app/scss/*.scss') // Gets all files ending with .scss in app/scss and children dirs
+    return gulp.src('./app/scss/*.scss') // Gets all files ending with .scss in app/scss and children dirs
         .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
-        .pipe(gulp.dest('dist/css'))
+        .pipe(postcss([
+            require('css-mqpacker')({
+                sort: true
+            })
+        ]))
+        .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({
             stream: true
         }));
@@ -25,8 +32,8 @@ gulp.task('watch', function(){
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
-            baseDir: 'dist'
-        },
+            baseDir: 'app'
+        }
     })
 });
 

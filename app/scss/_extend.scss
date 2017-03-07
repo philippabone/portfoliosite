@@ -1,0 +1,21 @@
+// extend
+
+//colours
+$headingcolour: #339999;
+$maincolour: #339999;
+
+/* main heading across the whole site */
+.h1 {
+  font-size: 3em;
+  text-align: center;
+  color: $headingcolour;
+  font-family: myfont,'waterlily', serif;
+}
+
+/*FLEX - COLUMN*/
+.flex-column {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
