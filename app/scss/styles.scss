@@ -3,8 +3,7 @@ $headingcolour: #339999;
 
 $maincolour: #339999;
 
-$footercolour: 	 #8cd9d9;
-
+$footercolour: darken($maincolour, 0%);
 
 // IMPORT
 @import "extend";
@@ -14,8 +13,6 @@ $footercolour: 	 #8cd9d9;
 @import "header";
 @import "nav";
 @import "footer";
-
-
 
 
 
@@ -428,7 +425,7 @@ $footercolour: 	 #8cd9d9;
   }
 
   section.blogcontent ul {
-    padding-left: 0;
+    padding-left: 10px;
   }
   section.blogcontent li {
     margin-bottom: 10px;
@@ -471,6 +468,10 @@ $footercolour: 	 #8cd9d9;
     width: 100%;
     margin-bottom: 5px;
     vertical-align: middle;
+  }
+
+  .content-list {
+    font-size: 1em;
   }
 
   /* TWITTER SHARE BUTTON ON BLOG POSTS */
@@ -920,6 +921,11 @@ $footercolour: 	 #8cd9d9;
   section.blogcontent p{
     font-size: 1.3em;
     line-height: 180%;
+  }
+
+  .content-list {
+    font-size: 1.5em;
+    line-height: 120%;
   }
   blockquote{
     font-size: 1.5em;

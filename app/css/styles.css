@@ -142,7 +142,7 @@ FOOTER footer {
 
 footer .footer {
   width: 100%;
-  background-color: #40bfbf;
+  background-color: #339999;
   padding-top: 10px;
   padding-bottom: 30px;
   flex: 50%;
@@ -598,7 +598,7 @@ section.blogcontent {
 }
 
 section.blogcontent ul {
-  padding-left: 0;
+  padding-left: 10px;
 }
 
 section.blogcontent li {
@@ -640,6 +640,10 @@ section.blogcontent img {
   width: 100%;
   margin-bottom: 5px;
   vertical-align: middle;
+}
+
+.content-list {
+  font-size: 1em;
 }
 
 /* TWITTER SHARE BUTTON ON BLOG POSTS */
@@ -1067,6 +1071,10 @@ label {
   section.blogcontent p {
     font-size: 1.3em;
     line-height: 180%;
+  }
+  .content-list {
+    font-size: 1.5em;
+    line-height: 120%;
   }
   blockquote {
     font-size: 1.5em;
