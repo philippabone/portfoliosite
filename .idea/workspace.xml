@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e0aa072-15e1-4d7a-b35c-e64afbc73f5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Muli-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/waterlily.regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/finalyear/actualmoodboard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/finalyear/persona_final.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/finalyear/styleguide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/finalyear/wireframe_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/finalyear/wireframe_sketch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/Muli-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/waterlily.regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/blog/font-waterlily.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/blog/mobilefirst.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/finalyear/actualmoodboard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/finalyear/persona_final.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/finalyear/styleguide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/finalyear/wireframe_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/finalyear/wireframe_sketch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/pdf/DigitalSkillsFestival2016.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/pdf/PhilippaBone-CV2017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/pdf/TechNationReport2016.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/pdf/philippabonecv.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/social_media/github-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/social_media/linkedin-2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/social_media/linkedin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/social_media/twitter.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Archive.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/Muli-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/waterlily.regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/finalyear/personas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/finalyear/styleguide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scss/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scss/styles.css.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/DigitalSkillsFestival2016.pdf" afterPath="$PROJECT_DIR$/app/pdf/DigitalSkillsFestival2016.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/PhilippaBone-CV2017.pdf" afterPath="$PROJECT_DIR$/app/pdf/PhilippaBone-CV2017.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/TechNationReport2016.pdf" afterPath="$PROJECT_DIR$/app/pdf/TechNationReport2016.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/finalyear/wireframe-axure.png" afterPath="$PROJECT_DIR$/app/images/finalyear/wireframe-axure.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/finalyear/wireframe-sketch.png" afterPath="$PROJECT_DIR$/app/images/finalyear/wireframe-sketch.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/philippabonecv.pdf" afterPath="$PROJECT_DIR$/app/pdf/philippabonecv.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/finalyear/moodboard.png" afterPath="$PROJECT_DIR$/app/images/finalyear/moodboard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/about.html" afterPath="$PROJECT_DIR$/app/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/blog/blogpage.html" afterPath="$PROJECT_DIR$/app/blog/blogpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contact.html" afterPath="$PROJECT_DIR$/app/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_variables.scss" afterPath="$PROJECT_DIR$/app/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/workexample2.html" afterPath="$PROJECT_DIR$/app/workexample2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/about.html" afterPath="$PROJECT_DIR$/dist/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/blog/blogpage.html" afterPath="$PROJECT_DIR$/dist/blog/blogpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/contact.html" afterPath="$PROJECT_DIR$/dist/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/styles.css" afterPath="$PROJECT_DIR$/dist/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/workexample2.html" afterPath="$PROJECT_DIR$/dist/workexample2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/Muli-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/waterlily.regular.ttf" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+            <state relative-caret-position="315">
+              <caret line="68" column="3" lean-forward="true" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workexample2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workexample2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/workexample2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -483,18 +431,18 @@
       <workItem from="1488361593556" duration="6939000" />
       <workItem from="1488639500456" duration="15521000" />
       <workItem from="1488965471827" duration="1535000" />
-      <workItem from="1489052786341" duration="13356000" />
+      <workItem from="1489052786341" duration="13457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158616000" />
+    <option name="totallyTimeSpent" value="158717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1246" height="734" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19983949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19983949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.042105265" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -785,18 +733,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/app/workexample2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/workexample2.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <caret line="68" column="3" lean-forward="true" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
           <folding />
         </state>
       </provider>
