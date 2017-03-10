@@ -64,8 +64,8 @@ gulp.task('imagemin', function() {
 
 //pdf
 gulp.task('copy:pdf', function() {
-    gulp.src('app/*.pdf')
-        .pipe(gulp.dest('dist'));
+    gulp.src('app/pdf/*.pdf')
+        .pipe(gulp.dest('dist/pdf'));
 });
 
 //favicon
@@ -76,8 +76,8 @@ gulp.task('copy:favicon', function() {
 
 // font
 gulp.task('copy:font.ttf', function() {
-    gulp.src('app/css/*.ttf')
-        .pipe(gulp.dest('dist/css'));
+    gulp.src('app/fonts/*.ttf')
+        .pipe(gulp.dest('dist/fonts'));
 });
 
 

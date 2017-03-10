@@ -16,12 +16,12 @@
 
 @font-face {
   font-family: myfont;
-  src: url(waterlily.regular.ttf);
+  src: url(../fonts/waterlily.regular.ttf);
 }
 
 @font-face {
   font-family: homefont;
-  src: url(Muli-Regular.ttf);
+  src: url(../fonts/Muli-Regular.ttf);
 }
 
 /* HEADER */
