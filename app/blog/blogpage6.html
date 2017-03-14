@@ -6,9 +6,9 @@
     <link rel="icon" href="../favicon-32x32.png" sizes="32x32" type="image/png">
     <meta name="author" content="Philippa Bone">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Blog Post about The Industry and the shortage of developers, looking at the Tech Nation and Digital Skills Deck 2016 Reports">
-    <meta name="keywords" content="blog post, the industry, HTML, developer, Digital, manchester, graduation">
-    <title> Website Alterations | Blog Post | Philippa Bone</title>
+    <meta name="description" content="Blog post about Sass, how i went about learning the basics of Sass (SCSS) and how I put what I found into practice!">
+    <meta name="keywords" content="blog post, sass, css, preprocessor, scss, variables, mixins, include, extend ">
+    <title> Making my CSS Sassy | Blog Post | Philippa Bone</title>
 
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
 
@@ -78,32 +78,136 @@
                 <!-- breadcrumb link and date -->
 
                 <div class="content-info">
-                    <p><a href="blog.html">Blog</a>/ Website Alterations</p>
-                    <p> Date: 29th Jan 17</p>
+                    <p><a href="blog.html">Blog</a>/ Making my CSS Sassy</p>
+                    <p> Date: 13th March 17</p>
                 </div>
 
 
                 <!-- blog start -->
-                <h1> Sassy CSS</h1>
+                <h1> All About Sass </h1>
+                <p>As a self-initiated project, I decided to explore Sass. The aim is to implement Sass techniques into my portfolio site. The objectives of this project are to research about Sass through various tutorials, to illustrate basic Sass techniques, to evaluate the Sass used and the performance of the code by having unrepeated unnecessary code and to use variables to create a standard style across the site to illustrate the efficiencies of Sass.
+                </p>
 
-                <p data-height="342" data-theme-id="0" data-slug-hash="LWPOdv" data-default-tab="css,result" data-user="philippabone" data-embed-version="2" data-pen-title="Colours - Sass" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/philippabone/pen/LWPOdv/">Colours - Sass</a> by Philippa (<a href="http://codepen.io/philippabone">@philippabone</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                <blockquote>“Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.”(sass, No Date: online).
+                </blockquote>
+
+                <p>I wanted to look into Sass after having some feedback from my previous work about having repeated code. When I looked into this I saw that Sass was used to help organise CSS and helped to produce <a href="https://alistapart.com/article/dry-ing-out-your-sass-mixins" title="External link to A List Apart article on drying out your Sass mixins">DRY code</a>. Dry or “Don’t repeat yourself,” is a programming principle coined in The Pragmatic Programmer (Hunt,Thomas,1999) that states;
+                </p>
+
+                <blockquote>“Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.”
+                </blockquote>
+
+                <p>I then came across the different CSS pre-processors, SCSS, SASS and LESS. I asked my friends as well as researched to learn the differences and SCSS came out as the best one to learn due to it being the most similar to CSS.
+                </p>
+                <blockquote>“Sass has two syntaxes. The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.” (Avery,2013:online).</blockquote>
+                
+                <figure> <img src="../images/blog/scss-example.jpg" alt="showing the different layout for SCSS and SASS"> <figcaption><a href="https://responsivedesign.is/articles/difference-between-sass-and-scss/"> SCSS - The Difference between SCSS and SASS visually </a></figcaption></figure>
+
+                <figure> <img src="../images/blog/sass-example.jpg" alt="showing the different layout for SCSS and SASS"> <figcaption><a href="https://responsivedesign.is/articles/difference-between-sass-and-scss/"> SASS - The Difference between SCSS and SASS visually </a></figcaption></figure>
+
+               <h2> Lets get Sassy....</h2>
+
+                <p>Similarly, to my other <a href="blogpage7.html" title="internal link to blog on Git">self-initiated project </a>I went about building knowledge by watching some tutorials. I started with the Lynda video called <a href="https://www.lynda.com/Sass-tutorials/Welcome/375925/435554-4.html?autoplay=true" title="External link to Lynda.com video on Sass Essential Training">Sass Essential Training</a> . The concept of Sass seemed okay in my head until it came to watching videos of people doing it, then it seemed quite confusing. The most confusing part for me was learning that I work within the .SCSS file and the CSS file is then the outputted version. I have been using WebStorm to write my code in and find it great and it has built in <a href="https://www.jetbrains.com/help/webstorm/2016.3/transpiling-sass-less-and-scss-to-css.html" title="External link to WebStorm website about transpiling sass into css">File Watchers</a> that translate SCSS to CSS but just to make things more interesting I also wanted to learn how to use Gulp. Luckily I have a <a href="https://alexclapperton.co.uk/" title="Alex Clappertons portfolio website"> very knowledgeable friend</a> who was willing to help me out with any questions I had, I followed the CSS tricks post on <a href="https://css-tricks.com/gulp-for-beginners/" title="External link to CSS Tricks article on Gulp">Gulp for beginners</a>. This was brilliant to follow and allowed me to set up live browser reloading with browserSync and it allowed me to use Gulp plugins to minify my JS,HTML and images and send to my dist/distribution folder.
+                </p>
+
+                <blockquote> “We can compile Sass to CSS in Gulp with the help of a plugin called gulp-sass.” (Liew, 2015: online)
+                </blockquote>
+
+                <p>I then went to do a Sass course on Code School called <a href="https://www.codeschool.com/courses/assembling-sass" title="Link to Code Schools online course called Assembling Sass">Assembling Sass</a>, the process of what Sass does is logical, it made sense to me as it reduces the need for repeated code and allows for a more organised stylesheet. Even though I thought I knew what Sass was all about I was still missing the part of applying it to my own work, this is when I knew I got the concept but not exactly how to apply it.
+                  </p>
+
+                  <figure> <img src="../images/blog/codeschool-sass.jpeg" alt="Code School sass course"> <figcaption> Code School's Assembling Sass course</figcaption></figure>
+
+                  <p>By looking at other people using Sass in their projects it enabled me to see exactly how it is used and which areas are more widely used. This for me was the point where is clicked into place, I saw the theory that I had learnt put into practice and felt more confident in applying it to my portfolio site.
+                  </p>
+
+                  <h2> How i put it into practice....</h2>
+
+                  <p>I wanted to put what I had learnt so far into practice and I decided to change my CSS for this site into SCSS. This gave me a new look on how to organise my stylesheet. The first thing I decided to do was create a variable which would hold a colour. This was my main colour ( #339999) so I called it $maincolour and used it where I had put borders or similar in the main colour of my site. All my main headings were also in this colour but I decided to give them a separate variable in case I wanted to change the colour later, $headingcolour.
+                  </p>
+
+                 <figure> <img src="../images/blog/var_colour.jpg" alt="colour variables in Sass"> <figcaption> Colour vairables</figcaption></figure>
+
+                  <p>I did some nesting but researched and found out that you can nest too deep and it can get confusing and hard work, one article on <a href="https://www.sitepoint.com/beware-selector-nesting-sass/" title="External link to site point articlr on nesting in Sass"> nesting in Sass</a> explained it well. The general thoughts are you haven’t to nest any <a href="https://css-tricks.com/forums/topic/sass-best-practices-nesting-more-than-3-levels-deep/" title="External link to CSS Tricks article on nesting"> deeper than 3 levels</a> (Powell, 2014) and it is best to keep it to simple things such as hover. Below is a hover example on a button, the & allows there to be no space when it is compiled into CSS so it forms a.btn:hover rather than a.btn :hover.
+                  </p>
+
+                  <figure> <img src="../images/blog/SCSS-CSS.jpeg" alt="showing nesting in SCSS and the outputted CSS"> <figcaption>  Nesting in SCSS and the CSS </figcaption></figure>
+
+                  <h2> @import</h2>
+
+                   <p>I decided to import both extend and variables but also different sections. I decided to start by just importing the main sections that occurred on all the pages so in my case it was my header, footer and my nav.</p>
+                   <blockquote>“So, you have the benefits of a single file download, with the flexibility of multiple files that contain reusable code.” (Coyier, 2013: online)</blockquote>
 
 
-                <p data-height="359" data-theme-id="0" data-slug-hash="KWKbYG" data-default-tab="html,result" data-user="philippabone" data-embed-version="2" data-pen-title="Data Map - Sass" class="codepen">See the Pen <a href="http://codepen.io/philippabone/pen/KWKbYG/">Data Map - Sass</a> by Philippa (<a href="http://codepen.io/philippabone">@philippabone</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                   <figure> <img src="../images/blog/import_scss.jpg" alt="imports for this site, extend, variables heading, footer and nav "> <figcaption> Import variables</figcaption></figure>
 
+                <h2> @extend </h2>
+
+                   <p>I decided to use the @extend function for my H1 and where I have repeated used the same Flexbox back up properties for different browsers. I have recently had a talk from Harry Roberts (<a href="https://twitter.com/csswizardry" title="Link to Harry Roberts Twitter">CSS Wizardry</a>) and he explained that it is <a href="https://csswizardry.com/2016/02/mixins-better-for-performance/" title="External link to Haryy Roberts article on CSS performance and Mixins"> better for performance to use Mixins</a>  rather than Extend as there is more repetition in the CSS when using Mixins and therefore they gzip better (Roberts, 2016). This is something I would do if it was a larger site or as I become more comfortable and start using the available Sass features more.</p>
+
+                   <figure> <img src="../images/blog/EXTEND.jpeg" alt="extend used to repeat code for h1 elements"> <figcaption> extend used for H1</figcaption></figure>
+
+                   <h2>CodePen</h2>
+                   <p>I also had a go at using the <a href="http://sass-lang.com/documentation/Sass/Script/Functions.html"> colour Sass functions</a> available to make a colour palette(sass, no date) and using a Sass Map to put colours onto SVG images. This is a really cool idea as it could be used for colour pallets for websites and allows easy colour changes.
+                   </p>
+                   <!-- CODEPEN ON SASS -->
+                   <p data-height="342" data-theme-id="0" data-slug-hash="LWPOdv" data-default-tab="css,result" data-user="philippabone" data-embed-version="2" data-pen-title="Colours - Sass" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/philippabone/pen/LWPOdv/">Colours - Sass</a> by Philippa (<a href="http://codepen.io/philippabone">@philippabone</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                   <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+               <!-- CODEPEN ON SASS DATA MAP -->
+                   <p data-height="359" data-theme-id="0" data-slug-hash="KWKbYG" data-default-tab="html,result" data-user="philippabone" data-embed-version="2" data-pen-title="Data Map - Sass" class="codepen">See the Pen <a href="http://codepen.io/philippabone/pen/KWKbYG/">Data Map - Sass</a> by Philippa (<a href="http://codepen.io/philippabone">@philippabone</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                   <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
+                <h2> Conclusion</h2>
+
+                <p>This project has enabled me to see another dimension to stylesheets, I know I have only scratched the surface with Sass but I plan on carrying on learning and improving both this site and any future sites. Sass will allow me to have more DRY code, more organised code and code that people can take on easier!
+                </p>
 
 
                 <h2> Share it </h2>
                 <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+                <h2> References</h2>
+
+                <ul class="references">
+                    <li>Avery, J. (2013). Difference between .sass and .scss. Responsive Design. [Online] [Date Accessed: 7th Jan 17] URL:<a href="https://responsivedesign.is/articles/difference-between-sass-and-scss/">https://responsivedesign.is/articles/difference-between-sass-and-scss/</a> </li>
+
+                    <li>Coyier, C. (2013). Sass For Web Designers. New York: A Book Apart.</li>
+
+
+                    <li>Hunt, A and Thomas, D. (1999). The Pragmatic Programmer. USA: Addison-Wesley.</li>
+
+
+                    <li>Liew, Z. (2015). Gulp for Beginners. CSS-TRICKS. [Online] [Date Accessed: 15th Feb 17] URL:<a href="https://css-tricks.com/gulp-for-beginners/">https://css-tricks.com/gulp-for-beginners/</a> </li>
+
+                <li>Powell, M. (2014). Sass Best Practices – Nesting more than 3 levels deep. CSS-TRICKS. [Online] [Date Accessed: 17th Feb 17] URL:<a href="https://css-tricks.com/forums/topic/sass-best-practices-nesting-more-than-3-levels-deep/">https://css-tricks.com/forums/topic/sass-best-practices-nesting-more-than-3-levels-deep/</a> </li>
+
+
+
+                <li>Richard,S. (2014). DRY-ing Out Your Sass Mixins. A List Apart. [Online] [Date Accessed: 24th Jan 17] URL:<a href="https://alistapart.com/article/dry-ing-out-your-sass-mixins"> https://alistapart.com/article/dry-ing-out-your-sass-mixins</a> </li>
+
+
+                <li>Roberts, H. (2016). Mixins Better for Performance. CSS Wizardry. [Online] [Date Accessed: 1st March 17] URL: <a href="https://csswizardry.com/2016/02/mixins-better-for-performance/">https://csswizardry.com/2016/02/mixins-better-for-performance/</a> </li>
+
+
+                    <li>Sass. (No Date) Module: Sass::Script::Functions. [Online] [Date Accessed: 15th Jan 17] URL:<a href="http://sass-lang.com/documentation/Sass/Script/Functions.html">http://sass-lang.com/documentation/Sass/Script/Functions.html</a> </li>
+
+
+
+                <li>Sass, (No Date). Sass. [Online] [Date Accessed: 5th Jan 17] URL: <a href="http://sass-lang.com/">http://sass-lang.com/</a> </li>
+
+
+                <li>WebStorm.(2016)Transpiling Sass,Less and SCSS to CSS.[Online][Date Accessed: 1st Feb 17]URL:<a href="https://www.jetbrains.com/help/webstorm/2016.3/transpiling-sass-less-and-scss-to-css.html">https://www.jetbrains.com/help/webstorm/2016.3/transpiling-sass-less-and-scss-to-css.html</a> </li>
+
+                </ul>
+
 
                 <h2> My Other Posts </h2>
 
 
-                <a href="#"><h3> My Next Blog Post - Coming soon </h3></a>
-                <a href="blogpage4.html" title="Internal Link to blog post on Mobile First"><h3> My Previous Blog Post - Mobile First - The Debate </h3></a>
+                <a href="blogpage7.html"><h3> My Next Blog Post - Git With It </h3></a>
+                <a href="blogpage5.html" title="Internal Link to blog post on my website alterations"><h3> My Previous Blog Post - Website Alterations </h3></a>
                 <div class = "skiptotop"> <a href="#skiptotop">Skip to top</a> </div>
 
 
@@ -147,7 +251,7 @@
 
             <div class="footer center">
                 <ul>
-                    <li>  <img src="../images/opened-email-envelope.svg" alt=""> <a href="mailto:philippa.bone@stu.mmu.ac.uk" title="Send an Email to Philippa Bone"> philippabone@stu.mmu.ac.uk</a>  </li>
+                    <li>  <img src="../images/opened-email-envelope.svg" alt=""> <a href="mailto:philippa.bone@stu.mmu.ac.uk" title="Send an Email to Philippa Bone"> philippa.bone@stu.mmu.ac.uk</a>  </li>
                 </ul>
             </div>
 
@@ -155,13 +259,26 @@
             <div class="footer right">
                 <ul>
 
-                    <li><a href="https://www.twitter.com/p_i_p_p_a_" target="_blank">  <img class="social-icon" src="../images/social_media/twitter.svg" alt="External link to Philippa's Twitter profile."> </a>  </li>
 
-                    <li> <a href="https://www.linkedin.com/in/philippa-bone-361a10a6" target="_blank">  <img class="social-icon" src="../images/social_media/linkedin-2.svg" alt="External link to Philippa's LinkedIn Profile."> </a> </li>
-                    <li> <a href="https://github.com/philippabone" target="_blank">  <img class="social-icon" src="../images/social_media/github-logo.svg" alt="External link to Philippa's GitHub Profile."> </a> </li>
+                    <!-- TWITTER ICON -->
+                    <li><a href="https://www.twitter.com/p_i_p_p_a_" target="_blank">
+                        <svg class="social-icon social-icon--twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+                            <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+                        </svg> </a>  </li>
 
+                    <!-- LINKEDIN ICON -->
 
-                    <!--<div>Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                    <li> <a href="https://www.linkedin.com/in/philippa-bone-361a10a6" target="_blank">
+                        <svg class="social-icon social-icon--linkedin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+                            <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+                            <path d="M2 12h6v18h-6v-18z"></path>
+                            <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+                        </svg> </a> </li>
+
+                    <!-- GITHUB ICON -->
+
+                    <li> <a href="https://github.com/philippabone" target="_blank">  <svg class="social-icon social-icon--github" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 512 512"><path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"></path></svg></a> </li>
+
 
                 </ul>
             </div>

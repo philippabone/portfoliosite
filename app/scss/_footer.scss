@@ -96,10 +96,9 @@ footer .center p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-left: 0;
 }
 
-
-// should this be here if i have it in the html?
 .right ul li img {
   width: 32px;
   height: 32px;

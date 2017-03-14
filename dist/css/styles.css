@@ -222,6 +222,7 @@ footer .center p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-left: 0;
 }
 
 .right ul li img {
@@ -597,13 +598,13 @@ section.blogcontent {
   margin-bottom: 10px;
 }
 
-section.blogcontent ul {
+.references {
   padding-left: 10px;
 }
 
-section.blogcontent li {
+.references li {
   margin-bottom: 10px;
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 
 section.blogcontent p {
@@ -642,8 +643,9 @@ section.blogcontent img {
   vertical-align: middle;
 }
 
-.content-list {
+.content-list li {
   font-size: 1em;
+  margin-bottom: 10px;
 }
 
 /* TWITTER SHARE BUTTON ON BLOG POSTS */
@@ -813,7 +815,7 @@ label {
   section.blogcontent {
     margin: 40px 60px 0;
   }
-  section.blogcontent li {
+  .references li {
     font-size: 0.8em;
   }
   section.blogcontent h1 {
@@ -1073,7 +1075,7 @@ label {
     line-height: 180%;
   }
   .content-list {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 120%;
   }
   blockquote {

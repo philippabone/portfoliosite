@@ -8,9 +8,6 @@ var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
 var runSeq = require('run-sequence');
 
-gulp.task('hello', function() {
-    console.log('Hello Zell');
-});
 
 
 gulp.task('sass', function() {
@@ -53,8 +50,17 @@ gulp.task('uglify', function() {
 
 //img
 
-gulp.task('imagemin', function() {
-    gulp.src('app/images/**/*')
+//gulp.task('imagemin', function() {
+  //  gulp.src('app/images/**/*')
+    //    .pipe(imagemin())
+      //  .pipe(gulp.dest('dist/images'))
+        //.pipe(browserSync.reload({
+         //  stream: true
+       // }));
+//});
+
+gulp.task('imagemin', function(){
+    return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/images'))
         .pipe(browserSync.reload({
@@ -102,7 +108,7 @@ gulp.task('browserSync', function() {
 gulp.task('watch', ['browserSync', 'sass'], function (){
     gulp.watch('app/scss/**/*.scss', ['sass']);
     // Reloads the browser whenever HTML or JS files change
-    gulp.watch('app/*.html', ['minify']);
+    gulp.watch('app/**/*.html', ['minify']);
     gulp.watch('app/js/**/*.js', ['uglify']);
     gulp.watch('app/images/**/*', ['imagemin']);
 });
